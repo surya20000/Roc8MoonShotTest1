@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deployed Link Redirect</title>
-</head>
-<body>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+        color: #4a4a4a;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #007bff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin: 10px;
+        transition: background-color 0.3s, transform 0.3s;
+      }
+
+      a:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+      }
+
+      @media (max-width: 600px) {
+        body {
+          padding: 10px;
+        }
+
+        a {
+          padding: 8px 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <h2>Below are the links to both the question</h2>
-    <a href="">Email Client App</a>
-    <a href="">Data Visualization Dashboard</a>
-</body>
+    <a href="https://roc8-moon-shot-test1.vercel.app/" target="_blank"
+      >Email Client App</a
+    >
+    <a href="https://roc8-moon-shot-test1-5xgk.vercel.app/" target="_blank"
+      >Data Visualization Dashboard</a
+    >
+  </body>
 </html>
